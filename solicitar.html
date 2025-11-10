@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>CreditSmart - Solicitar Crédito</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Solicitar Crédito</h1>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="simulador.html">Simulador</a>
+      <a href="solicitar.html">Solicitar Crédito</a>
+    </nav>
+  </header>
+
+  <main>
+    <form class="formulario">
+      <h2>Datos Personales</h2>
+      <label>Nombre completo</label>
+      <input type="text" required>
+
+      <label>Cédula</label>
+      <input type="number" required>
+
+      <label>Email</label>
+      <input type="email" required>
+
+      <label>Teléfono</label>
+      <input type="tel" required>
+
+      <h2>Datos del Crédito</h2>
+      <label>Tipo de crédito</label>
+      <select>
+        <option>Crédito Libre Inversión</option>
+        <option>Crédito Vehículo</option>
+        <option>Crédito Vivienda</option>
+        <option>Crédito Educativo</option>
+        <option>Crédito Empresarial</option>
+      </select>
+
+      <label>Monto solicitado</label>
+      <input type="number" required>
+
+      <label>Plazo (meses)</label>
+      <select>
+        <option>12</option>
+        <option>24</option>
+        <option>36</option>
+        <option>48</option>
+        <option>60</option>
+      </select>
+
+      <label>Destino del crédito</label>
+      <textarea rows="3"></textarea>
+
+      <h2>Datos Laborales</h2>
+      <label>Empresa donde trabaja</label>
+      <input type="text">
+
+      <label>Cargo</label>
+      <input type="text">
+
+      <label>Ingresos mensuales</label>
+      <input type="number">
+
+      <div class="botones">
+        <button type="submit">Enviar Solicitud</button>
+        <button type="reset">Limpiar Formulario</button>
+      </div>
+    </form>
+  </main>
+</body>
+</html>
